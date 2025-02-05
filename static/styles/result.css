@@ -1,0 +1,62 @@
+/* Please take a look at this video! https://www.youtube.com/watch?v=M7MuHxHI8Xc */
+@import url("https://fonts.google.com/share?selection.family=Satisfy");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://img.freepik.com/free-photo/view-anatomic-heart-model-educational-purpose-with-stethoscope_23-2149894392.jpg?t=st=1736796410~exp=1736800010~hmac=a146ab4cd08ad70176f93f692fac470ff91be788aa3d6e3fdbe9f9b411b37852&w=1800");
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Red Rose", cursive;
+}
+
+.card {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  z-index: 1;
+  overflow: hidden;
+  border-color: black;
+  border-style: solid;
+  border-width: 3px;
+  background: white;
+  overflow-y: scroll;
+}
+
+.card img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+.card .details {
+  margin: 10px;
+}
+
+.card .details h2 {
+  font-weight: 600;
+}
+
+.card .details p {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+#printButton {
+  border-radius: 16px;
+  width: 200px;
+  border-style: none;
+  height: 40px;
+}
