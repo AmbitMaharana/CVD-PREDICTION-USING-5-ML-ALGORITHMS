@@ -1,111 +1,103 @@
-# CVD-PREDICTION-USING-5-ML-ALGORITHMS
+# CVD Prediction Using 5 Machine Learning algorithms
 
-OVERVIEW
+## Overview
+Cardiovascular disease (CVD) is a leading cause of mortality worldwide, making early detection critical.  
+This project aims to predict the likelihood of heart disease using five machine learning algorithms.  
+By analyzing medical data, the system provides an estimate of heart disease risk, aiding both individuals  
+and healthcare professionals in early diagnosis.
 
-Cardiovascular disease (CVD) is a leading cause of mortality worldwide, making early detection critical. This project aims to predict the likelihood of heart disease using five machine learning algorithms. By analyzing medical data, the system provides an estimate of heart disease risk, aiding both individuals and healthcare professionals in early diagnosis.
+## Features
 
+### **Machine Learning Models Used:**
+- **Logistic Regression**
+- **K-Nearest Neighbors (KNN)**
+- **Support Vector Machine (SVM)**
+- **Decision Tree**
+- **Random Forest**
 
-FEATURES
+### **Additional Features:**
+- 🖥 **User-Friendly Interface**: Built with Flask, allowing users to input medical data and receive predictions.  
+- 📊 **Data-Driven Insights**: Uses a dataset from Kaggle to train and validate the models.  
+- ✅ **Accuracy Analysis**: Compares model performance to determine the most effective approach.  
 
-Machine Learning Models: 
-1. Utilizes:
-   
-    i.Logistic Regression 
-                                  
-   ii.K-Nearest Neighbors (KNN)
-                                  
-   iii.Support Vector Machine (SVM)
-                                  
-   iv.Decision Tree
-                                  
-    v.Random Forest
-   
-2.User-Friendly Interface: Built with Flask, allowing users to input medical data and receive predictions.
+---
 
-3.Data-Driven Insights: Uses a dataset from Kaggle to train and validate the models.
+## **Technologies Used**
+- **Programming Language**: Python  
+- **Frameworks**: Flask (for web interface)  
+- **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn  
+- **Frontend**: HTML, CSS  
 
-4.Accuracy Analysis: Compares model performance to determine the most effective approach.
+---
 
-TECHNOLOGIES USED
+## **Installation & Usage**
 
-1.Programming Language: Python
+### **Step 1: Prerequisites**
+- Install **Python 3.x**
+- Install required libraries using:
+  ```sh
+  pip install -r requirements.txt
 
-2.Frameworks: Flask (for the web interface)
+### **Step 2: Running the Project**
 
-3.Libraries: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
+- Clone the repository:
+  ```sh
+  git clone https://github.com/your-username/CVD-Prediction.git
+  ```
+- Install dependencies:
+  ```sh
+  pip install -r requirements.txt
+  ```
+- Run the Flask application:
+  ```sh
+  python app.py
+  ```
+- Open in your browser:
+ [ python app.py](http://127.0.0.1:5000/)
+  
 
-4.Frontend: HTML, CSS
-
-INSTALLATION & USUAGE
-
-1.Prerequisites : Python 3.x
-
-2.Required libraries (install using pip install -r requirements.txt)
-
-RUNNING THE PROJECT:
-
-1.Clone the repository:
-
-git clone https://github.com/your-username/CVD-Prediction.git
-
-2.Navigate to the project directory:
-
-cd CVD-Prediction
-
-3.Install dependencies:
-
-pip install -r requirements.txt
-
-4.Run the Flask application:
-
-python app.py
-
-Open http://127.0.0.1:5000/ in your browser.
-
-DATASET
+## Dataset
 
 The dataset is sourced from Kaggle and consists of 14 attributes, including:
 
+- Age  
+- Sex  
+- Blood Pressure  
+- Cholesterol  
+- Max Heart Rate  
+- ST Depression  
+- Chest Pain Type, etc.  
 
-Age
+## Model Performance
 
-Sex
+| Algorithm               | Accuracy |
+|-------------------------|----------|
+| Logistic Regression     | 82%      |
+| K-Nearest Neighbors    | 64%      |
+| Support Vector Machine | 79%      |
+| Decision Tree          | 74%      |
+| Random Forest         | 82%      |
 
-Blood Pressure
+## Future Work
 
-Cholesterol
+🔍 Improve model accuracy through feature selection and hyperparameter tuning.  
+🤖 Integrate Deep Learning models (e.g., Neural Networks, BERT).  
+📈 Expand dataset for better generalization.  
+🎨 Enhance the frontend for a better user experience.  
 
-Max Heart Rate
+## Contributing
 
-ST Depression
+Contributions are welcome!  
+Feel free to fork the repository, create a pull request (PR), and contribute. 🚀  
 
-Chest Pain Type, etc.
 
-MODEL PERFORMANCE
+##  License
 
-Algorithm	Accuracy
+[MIT](https://choosealicense.com/licenses/mit/) © [Ambit PM](https://github.com/AdityaSuresh013)
+- This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Logistic Regression	82%
+## Author
 
-KNN	64%
+- [Ambit PM](https://github.com/AdityaSuresh013)
 
-SVM	79%
-
-Decision Tree	74%
-
-Random Forest	82%
-
-FUTURE WORK
-
-Improve model accuracy by feature selection and hyperparameter tuning.
-
-Integrate deep learning models for better prediction.
-
-Expand dataset for better generalization.
-
-Enhance the frontend for a better user experience.
-
-CONTIBUTING
-
-Contributions are welcome! Feel free to fork the repository and submit a pull request.
 
