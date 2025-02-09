@@ -98,6 +98,6 @@ Feel free to fork the repository, create a pull request (PR), and contribute. ðŸ
 
 ## Author
 
-- [Ambit PM](https://github.com/AdityaSuresh013)
+- [Ambit PM](https://github.com/AmbitMaharana)
 
 
